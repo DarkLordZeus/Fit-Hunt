@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Fit Hunt</string>
-    <string name="google_maps_key">AIzaSyAow9XXtMmbsL7zUQBuPsizRUavJ8K8Ou0</string>
+    <string name="google_maps_key">google_maps_key</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="bloodgroups">
@@ -14,9 +14,9 @@
         <item>AB +ve</item>
         <item>AB -ve</item>
     </string-array>
-    <string name="facebook_app_id">3110451639282614</string>
-    <string name="facebook_client_token">495aff65eed570bc6aac382c3723d5b5</string>
-    <string name="fb_login_protocol_scheme">fb3110451639282614</string>
+    <string name="facebook_app_id">facebook_app_id</string>
+    <string name="facebook_client_token">facebook_client_token</string>
+    <string name="fb_login_protocol_scheme">fb_login_protocol_scheme</string>
     <string-array name="gender">
         <item>--</item>
         <item>Male</item>
