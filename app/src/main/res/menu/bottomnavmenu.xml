@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/hearthome"
+        android:title="Home"
+        app:showAsAction="always"
+        android:color="@color/home"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/statistics"
+        android:title="Statistics"
+        app:showAsAction="ifRoom"
+        android:color="@color/logger"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"
+        android:color="#1FCCF8"/>
+</menu>

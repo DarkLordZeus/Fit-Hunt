@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "941091209541",
+    "project_id": "fit-hunt-338504",
+    "storage_bucket": "fit-hunt-338504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941091209541:android:7c151002a4a16e3b023e2c",
+        "android_client_info": {
+          "package_name": "com.example.fithunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941091209541-tl1peboui30i4if09f3s9leb1ia3vatl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiN57IFOrJZMDiHUs7WqmUtBHA6br3mEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941091209541-tl1peboui30i4if09f3s9leb1ia3vatl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941091209541:android:40a777ba3d295f86023e2c",
+        "android_client_info": {
+          "package_name": "com.example.fithunt.FitHuntroomdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941091209541-tl1peboui30i4if09f3s9leb1ia3vatl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiN57IFOrJZMDiHUs7WqmUtBHA6br3mEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941091209541-tl1peboui30i4if09f3s9leb1ia3vatl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

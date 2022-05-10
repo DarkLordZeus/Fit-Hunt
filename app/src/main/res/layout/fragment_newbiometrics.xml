@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.newbiometrics"
+    android:paddingTop="56dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="56dp"
+        android:id="@+id/imageViewdp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/girlgymming"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/selectimagefromgallery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewdp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewdp"
+        app:srcCompat="@drawable/addnewdp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Enter the details"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewdp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewdp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewdp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Name"
+        app:boxStrokeColor="#10A0E3"
+        app:hintTextColor="#10A0E3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:fontFamily="@font/open_sans_light"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textCursorDrawable="@drawable/cursorcolor"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFieldage"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:hint="Age"
+
+        app:boxStrokeColor="#10A0E3"
+        app:endIconTint="#10A0E3"
+        app:hintTextColor="#10A0E3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:fontFamily="@font/open_sans_light"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textCursorDrawable="@drawable/cursorcolor"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFieldweight"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Weight"
+        app:boxStrokeColor="#10A0E3"
+        app:helperText="in kgs"
+        app:hintTextColor="#10A0E3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="5"
+            android:textColor="#000000"
+            android:textCursorDrawable="@drawable/cursorcolor"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFieldheight"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Height"
+        app:boxStrokeColor="#10A0E3"
+        app:helperText="in fts"
+        app:counterMaxLength="3"
+        app:hintTextColor="#10A0E3"
+        app:layout_constraintEnd_toStartOf="@+id/outlinedTextFieldweight"
+        app:layout_constraintStart_toEndOf="@+id/outlinedTextFieldage"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:digits="0123456789."
+            android:fontFamily="@font/open_sans_light"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textCursorDrawable="@drawable/cursorcolor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.qandeelabbassi.dropsy.DropDownView
+        android:id="@+id/dropdown_bldgrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:dropsyElevation="0dp"
+        app:dropsyItems="@array/bloodgroups"
+        app:dropsyLabel="Blood group :"
+        app:dropsyLabelColor="@color/dropsy_text_color_secondary"
+        app:dropsySelector="@color/dropsy_selector"
+        app:dropsyValueColor="@color/dropsy_text_color"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextFieldheight" />
+
+    <com.qandeelabbassi.dropsy.DropDownView
+        android:id="@+id/dropdown_Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:dropsyElevation="0dp"
+        app:dropsyItems="@array/gender"
+        app:dropsyLabel="Gender :"
+        app:dropsyLabelColor="@color/dropsy_text_color_secondary"
+        app:dropsySelector="@color/dropsy_selector"
+        app:dropsyValueColor="@color/dropsy_text_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dropdown_bldgrp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/updatefab"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="48dp"
+        android:clickable="true"
+        app:fabCustomSize="64dp"
+        app:maxImageSize="28dp"
+        android:src="@drawable/ic_baseline_save_24"
+        app:backgroundTint="#F5F19E72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@android:color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

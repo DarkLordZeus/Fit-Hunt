@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fithunt.fragments.HomeFragment"
+        android:label="FitHunt"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_trackingFragment"
+            app:destination="@id/trackingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_excercisestochoose"
+            app:destination="@id/excercisestochoose" />
+        <action
+            android:id="@+id/action_homeFragment_to_bodyComposition"
+            app:destination="@id/bodyComposition" />
+        <action
+            android:id="@+id/action_homeFragment_to_dailyactivitiesdata"
+            app:destination="@id/dailyactivitiesdata" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.fithunt.fragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.fithunt.fragments.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="com.example.fithunt.fragments.TrackingFragment"
+        android:label="tracking"
+        tools:layout="@layout/fragment_tracking" >
+        <action
+            android:id="@+id/action_trackingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fithunt.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_newbiometrics"
+            app:destination="@id/newbiometrics" />
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@+id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+    <action android:id="@+id/action_global_trackingFragment"
+        app:destination="@id/trackingFragment"
+        app:launchSingleTop="true"/>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.fithunt.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signupfragment"
+            app:destination="@id/signupfragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_welcome_fragment"
+            app:destination="@id/welcome_fragment"
+            app:popUpTo="@+id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/signupfragment"
+        android:name="com.example.fithunt.fragments.Signupfragment"
+        android:label="signupfragment"
+        tools:layout="@layout/signupfragment" >
+        <action
+            android:id="@+id/action_signupfragment_to_biometricFragment"
+            app:destination="@id/biometricFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biometricFragment"
+        android:name="com.example.fithunt.fragments.BiometricFragment"
+        android:label="biometricfragment"
+        tools:layout="@layout/biometricfragment" >
+        <action
+            android:id="@+id/action_biometricFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@+id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/newbiometrics"
+        android:name="com.example.fithunt.fragments.newbiometrics"
+        android:label="fragment_newbiometrics"
+        tools:layout="@layout/fragment_newbiometrics" />
+    <fragment
+        android:id="@+id/excercisestochoose"
+        android:name="com.example.fithunt.fragments.Excercisestochoose"
+        android:label="Exercises"
+        tools:layout="@layout/fragment_excercisestochoose" >
+        <action
+            android:id="@+id/action_excercisestochoose_to_trackingFragment"
+            app:destination="@id/trackingFragment" />
+        <action
+            android:id="@+id/action_excercisestochoose_to_indoorexercisestracking"
+            app:destination="@id/indoorexercisestracking" />
+    </fragment>
+    <fragment
+        android:id="@+id/indoorexercisestracking"
+        android:name="com.example.fithunt.fragments.indoorexercisestracking"
+        android:label="fragment_indoorexercisestracking"
+        tools:layout="@layout/fragment_indoorexercisestracking" />
+    <fragment
+        android:id="@+id/bodyComposition"
+        android:name="com.example.fithunt.fragments.BodyComposition"
+        android:label="Body Composition"
+        tools:layout="@layout/fragment_body_composition" />
+    <fragment
+        android:id="@+id/dailyactivitiesdata"
+        android:name="com.example.fithunt.fragments.Dailyactivitiesdata"
+        android:label="Daily Activity"
+        tools:layout="@layout/fragment_dailyactivitiesdata" >
+        <argument
+            android:name="steps"
+            app:argType="long" />
+        <argument
+            android:name="activetime"
+            app:argType="long"/>
+        <argument
+            android:name="calorieburnt"
+            app:argType="long"/>
+        <argument android:name="totalexcperformed"
+            app:argType="integer" />
+        <argument
+            android:name="glassesofwater"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome_fragment"
+        android:name="com.example.fithunt.fragments.welcome_fragment"
+        android:label="fragment_welcome_fragment"
+        tools:layout="@layout/fragment_welcome_fragment" >
+        <action
+            android:id="@+id/action_welcome_fragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down"
+            app:popEnterAnim="@anim/slide_down"
+            app:popExitAnim="@anim/slide_up"
+            app:popUpTo="@+id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/workout_training_fragment"
+        android:name="com.example.fithunt.fragments.Workout_training_fragment"
+        android:label="Workout Training"
+        tools:layout="@layout/fragment_workout_training_fragment" >
+        <action
+            android:id="@+id/action_workout_training_fragment_to_excercise_web_view"
+            app:destination="@id/excercise_web_view" />
+    </fragment>
+    <fragment
+        android:id="@+id/excercise_web_view"
+        android:name="com.example.fithunt.fragments.excercise_web_view"
+        android:label="fragment_excercise_web_view"
+        tools:layout="@layout/fragment_excercise_web_view" >
+        <argument
+            android:name="web_link"
+            app:argType="string" />
+    </fragment>
+
+
+</navigation>

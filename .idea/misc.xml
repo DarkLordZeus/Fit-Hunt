@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/ic_baseline_person_remove_24.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/logoutusericon.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/splashscreen.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/welcome_slide_up.xml" value="0.1645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/drawable/whitecardcurve.xml" value="0.1785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/font/.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/font/alata.xml" value="0.28" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/font/alegreya_sans_sc.xml" value="0.28" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/font/open_sans_light.xml" value="0.28" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/activity_main.xml" value="0.12268518518518519" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/biometricfragment.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/dialogsort.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_body_composition.xml" value="0.25317028985507245" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_dailyactivitiesdata.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_excercise_web_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_excercisestochoose.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_googlesignin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_indoorexercisestracking.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_login.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_newbiometrics.xml" value="0.176" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_profiledialog.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_setting.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_statistics.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_welcome_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/fragment_workout_training_fragment.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/loadingbioprogressbar.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/profiledialog.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/signupfragment.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/trackitem.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/layout/workout_training_itemview.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/menu/bottomnavmenu.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/menu/profilefrag_menu.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/FitHunt2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

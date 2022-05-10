@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/dialogboxbg"
+
+    >
+
+    <TextView
+        android:id="@+id/Sorttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Sort by"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        style="@style/MyRadioButtonStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sorttext"
+        >
+
+        <RadioButton
+            android:id="@+id/avgspeed"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Avg Speed"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <RadioButton
+            android:id="@+id/datesort"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Date"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <RadioButton
+            android:id="@+id/distancesort"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Distance covered"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <RadioButton
+            android:id="@+id/durationsort"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Duration"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <RadioButton
+            android:id="@+id/calorieburntsort"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Calories burnt"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/dot2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="........................................................................................................"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/donesort"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Done"
+        android:textColor="#FF8300"
+        android:textSize="15sp"
+        app:iconTint="#FF8300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dot2"
+        app:strokeColor="#FF8300"
+        app:strokeWidth="0.5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancelsort"
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF8300"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:iconTint="#FF8300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dot2"
+        app:strokeColor="#FF8300"
+        app:strokeWidth="0.5dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
