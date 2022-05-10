@@ -1,22 +1,22 @@
 # Fit-Hunt
-SO IT ALL BEGAN WHEN I WAS LURKING AROUND PLAY STORE TO FIND A FITNESS APPLICATION🤔 , OUT OF HUNDREDS OF APPS I PREFERED SAMSUNG HEALTH 😄...SO THE FASCINATING UI 
-AND ALL FEATURES OF IT MADE ME WONDER HOW TO IT ALL HAD BEEN POSSIBLE SOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO I DECIDED TO CREATE MY OWN SAMSUNG HEALTH AND NAMED
-IT : FIT HUNT (a hunt to achieve fitness)😎😁
+So it all began when I was lurking around play store to find a fitness application🤔 , out of hundreds of apps I preferred samsung health 😄...\
+So the fascinating ui and all features of it made me wonder how to it all had been possible soooooooooooooooooooooooooooooooooooooo\
+I decided to create my own samsung health and named it:\
+FIT HUNT (a hunt to achieve fitness)😎😁
 
+# IT'S FEATURES👀
+1) GOOGLE MAP API implemented 🗺🗾.....\
+2) Firebase authentication(google,facebook,fithunt authentication)🔥\
+3) Firebase storage🗃📂\
+4) Step counter (resets daily automatically)🚶‍♂️🚶\
+5) Excercises tracking 🚴🏻‍♀️🏊🏻‍♀️🚵🏻‍♀️(tells time taken,calories burnt,distance covered,day executed,avg speed) #10 excercises indoor and outdoor excerciseS both...\
+6) ROOM database with HILT DAGGER 2...🔪\
+7) Suggests excercises with proper way to perform from various sites and open in web view...🤖🤖\
+8) Keep track of body composition ie weight,height,bmi..⚖\
+9) Recycler view to store data of excercises performed with google maps map view with tracked path that's covered by user...⌚\
+10) Keep measure of daily steps , duration of exercise and calories burnt ...🍕🔥\
+11) Firebase storage stores age,weight,height,profile pic,blood group,gender,bmi of user ...📚\
+12) Earn badges to get motivated and be more fit....😎
 
-IT'S FEATURES👀
-1)GOOGLE MAP API IMPLEMENTED 🗺🗾.....
-2)FIREBASE AUTHENTICATION(GOOGLE,FACEBOOK,FITHUNT AUTHENTICATION)🔥
-3)FIREBASE STORAGE🗃📂
-4)STEP COUNTER (RESETS DAILY AUTOMATICALLY)🚶‍♂️🚶
-5)EXCERCISES TRACKING 🚴🏻‍♀️🏊🏻‍♀️🚵🏻‍♀️(TELLS TIME TAKEN,CALORIES BURNT,DISTANCE COVERED,DAY EXECUTED,AVG SPEED) #10 EXCERCISES INDOOR AND OUTDOOR EXCERCISE BOTH...
-6)ROOM DATABASE WITH HILT DAGGER 2...🔪
-7)SUGGESTS EXCERCISES WITH PROPER WAY TO PERFORM FORM VARIOUS SITES AND OPEN IN WEB VIEW...🤖🤖
-8)KEEP TRACK OF BODY COMPOSITION ie WEIGHT,HEIGHT,BMI..⚖
-9)RECYCLER VIEW TO STORE DATA OF EXCERCISES PERFORMED WITH GOOGLE MAPS MAP VIEW WITH TRACKED PATH THAT'S COVERED BY USER...⌚
-10)KEEP MEASURE OF DAILY STEPS , DURATION OF EXERCISE AND CALORIES BURNT ...🍕🔥
-11)FIREBASE STORAGE STORES AGE,WEIGHT,HEIGHT,PROFILE PIC,BLOOD GROUP,GENDER,BMI OF USER ...📚
-12)EARN BADGES TO GET MOTIVATED AND BE MORE FIT....😎
-
-THESE FEW POINTS AREM'T ENOUGH TO JUSTIFY THE BEAUTFULL UI OF THE APPLICATION...
-INSTALL IT AND EXPLORE IT'S BEAUTY...😍😍
+  These few points aren't enough to justify the beautifull ui and features of the FIT HUNT ...\
+  Install it and explore it's beauty...😍😍
